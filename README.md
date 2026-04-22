@@ -1,4 +1,4 @@
-<h1 align="center">Madelyn R. — Full-Stack Engineer & Consultant</h1>
+<h1 align="center">Madelyn R. — Full-Stack Engineer</h1>
 
 <p align="center">
   <b>I build full-stack apps, design REST APIs, and write test automation that actually catches bugs.</b><br>
@@ -242,7 +242,7 @@ I'm actively looking for my next role. Here's what makes me a good bet:
 
 **📧 Email:** madelyneyes2026@gmail.com  
 **🐙 GitHub:** github.com/developers-universe-1  
-**🟢 Status:** Available for 1099 / C2C contracts — can stack multiple engagements  
+**🟢 Status:** Open to full-time, contract, and consulting opportunities  
 **📍 Location:** United States (Remote)
 
 **What I'm looking for:**
