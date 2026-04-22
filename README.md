@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>I build full-stack apps, design REST APIs, and write test automation that actually catches bugs.</b><br>
-  <sub>3–5 years shipping code. US Citizen. Next.js · TypeScript · Node.js · Playwright · Cypress</sub>
+  <sub>Full-Stack Engineer · US Citizen · Next.js · TypeScript · Node.js · Playwright · Cypress</sub>
 </p>
 
 <p align="center">
@@ -246,8 +246,6 @@ I'm actively looking for my next role. Here's what makes me a good bet:
 **📍 Location:** United States (Remote) — US Citizen, no sponsorship needed
 
 **What I'm looking for:**
-- **1099 / C2C contracts preferred** — Flexible rates, lets me work multiple engagements
-- Full-time W-2 also considered for the right team and product
 - A team that values test coverage and code quality
 - A product I can understand and care about
 - Room to grow into senior/lead roles
