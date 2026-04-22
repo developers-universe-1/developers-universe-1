@@ -194,28 +194,50 @@ Currently shipping:
 ---
 
 ## 🧩 Problems Solved Recently
-*These are the exact problems hiring managers are trying to solve in April 2026. If one of these sounds like your team, email me: madelyneyes2026@gmail.com*
 
-### Problem: "We need to add AI but our engineers don't know agent architecture"
-**Why it's viral:** Every Series A+ company got board pressure to "add AI" in Q1 2026. Most teams are stuck because they think AI = a chatbot.  
-**What I built:** A multi-agent orchestrator with Planner → Coder → Researcher → Reviewer agents that breaks down complex tasks and delegates to specialists. Works with any OpenAI-compatible API (OpenAI, Claude, Kimi, Groq).  
-**Result:** I can drop this architecture into your codebase and have agent features shipping in 1-2 sprints instead of 6 months of research.  
-**Tech:** Next.js 14, TypeScript, OpenAI-compatible APIs, state machines  
-**Who needs this:** Any startup trying to build AI features without hiring a 5-person ML team.
+These are the exact problems hiring managers are trying to solve in April 2026. If one of these sounds like your team, email me: madelyneyes2026@gmail.com
 
-### Problem: "Our test suite is broken and AI-generated code keeps breaking production"
-**Why it's viral:** GitHub Copilot and Cursor are generating 40%+ of new code. Legacy test suites can't handle the volume or the drift. QA teams are drowning.  
-**What I built:** A REST API with dual test automation coverage — Playwright for API testing, Cypress for parallel validation, Jest for unit tests — all running in a CI matrix across Node 18/20/22 with 70%+ coverage thresholds.  
-**Result:** I can audit your current test suite, identify gaps, and rebuild coverage in 2-3 weeks. Your deploy pipeline goes from "pray and hope" to "green means ship."  
-**Tech:** Node.js, Express, Playwright, Cypress, Jest, GitHub Actions  
-**Who needs this:** Any team shipping AI-generated code without proper QA gates.
+---
 
-### Problem: "Our marketing/sales outreach is manual and we can't scale"
-**Why it's viral:** Post-layoff 2025-2026, every growth team is expected to do more with less. Manual LinkedIn/email outreach doesn't scale.  
-**What I built:** A fully automated outreach pipeline using Node.js, third-party APIs, and cron jobs that sources leads, scores them against ICPs, sends personalized messages, and tracks replies — all without manual intervention.  
-**Result:** Reduced outreach time from 20 hours/week to 2 hours/week of monitoring. Handled rate-limiting, retries, and error recovery automatically.  
-**Tech:** Node.js, REST APIs, webhook handling, PostgreSQL, Playwright automation  
-**Who needs this:** Any B2B company trying to scale outbound without hiring 5 SDRs.
+**Problem:** "We need to add AI but our engineers don't know agent architecture"
+
+*Why it's viral:* Every Series A+ company got board pressure to "add AI" in Q1 2026. Most teams are stuck because they think AI = a chatbot.
+
+*What I built:* A multi-agent orchestrator with Planner → Coder → Researcher → Reviewer agents that breaks down complex tasks and delegates to specialists. Works with any OpenAI-compatible API (OpenAI, Claude, Kimi, Groq).
+
+*Result:* I can drop this architecture into your codebase and have agent features shipping in 1-2 sprints instead of 6 months of research.
+
+*Tech:* Next.js 14, TypeScript, OpenAI-compatible APIs, state machines
+
+*Who needs this:* Any startup trying to build AI features without hiring a 5-person ML team.
+
+---
+
+**Problem:** "Our test suite is broken and AI-generated code keeps breaking production"
+
+*Why it's viral:* GitHub Copilot and Cursor are generating 40%+ of new code. Legacy test suites can't handle the volume or the drift. QA teams are drowning.
+
+*What I built:* A REST API with dual test automation coverage — Playwright for API testing, Cypress for parallel validation, Jest for unit tests — all running in a CI matrix across Node 18/20/22 with 70%+ coverage thresholds.
+
+*Result:* I can audit your current test suite, identify gaps, and rebuild coverage in 2-3 weeks. Your deploy pipeline goes from "pray and hope" to "green means ship."
+
+*Tech:* Node.js, Express, Playwright, Cypress, Jest, GitHub Actions
+
+*Who needs this:* Any team shipping AI-generated code without proper QA gates.
+
+---
+
+**Problem:** "Our marketing/sales outreach is manual and we can't scale"
+
+*Why it's viral:* Post-layoff 2025-2026, every growth team is expected to do more with less. Manual LinkedIn/email outreach doesn't scale.
+
+*What I built:* A fully automated outreach pipeline using Node.js, third-party APIs, and cron jobs that sources leads, scores them against ICPs, sends personalized messages, and tracks replies — all without manual intervention.
+
+*Result:* Reduced outreach time from 20 hours/week to 2 hours/week of monitoring. Handled rate-limiting, retries, and error recovery automatically.
+
+*Tech:* Node.js, REST APIs, webhook handling, PostgreSQL, Playwright automation
+
+*Who needs this:* Any B2B company trying to scale outbound without hiring 5 SDRs.
 
 ---
 
