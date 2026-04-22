@@ -1,4 +1,4 @@
-<h1 align="center">Madelyn R. — Full-Stack Engineer</h1>
+<h1 align="center">Madelyn R. — Full-Stack Engineer & Consultant</h1>
 
 <p align="center">
   <b>I build full-stack apps, design REST APIs, and write test automation that actually catches bugs.</b><br>
@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="mailto:madelyneyes2026@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/developers-universe-1"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
@@ -233,9 +233,9 @@ I'm actively looking for my next role. Here's what makes me a good bet:
 - **I learn in public** — Every project is on GitHub with clean READMEs and architecture docs
 - **I use AI tools** — Not afraid of LLMs, agents, or copilots — I build with them
 
-**📧 Email:** your-email@example.com  
+**📧 Email:** madelyneyes2026@gmail.com  
 **🐙 GitHub:** github.com/developers-universe-1  
-**🟢 Status:** Available immediately, open to contract or full-time  
+**🟢 Status:** Available for 1099 / C2C contracts — can stack multiple engagements  
 **📍 Location:** United States (Remote)
 
 **What I'm looking for:**
@@ -253,5 +253,5 @@ I'm actively looking for my next role. Here's what makes me a good bet:
 
 <p align="center">
   <b>If you've read this far, we should probably talk.</b><br>
-  <a href="mailto:your-email@example.com">📧 Send me an email</a> or <a href="https://github.com/developers-universe-1">check out my code</a>.
+  <a href="mailto:madelyneyes2026@gmail.com">📧 Send me an email</a> or <a href="https://github.com/developers-universe-1">check out my code</a>.
 </p>
