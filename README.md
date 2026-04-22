@@ -183,33 +183,40 @@ I turn ideas into production-ready applications. I work across the entire stack 
 
 ## 🚀 What I'm Building Now
 
-Currently working on:
+*Email me about any of these: madelyneyes2026@gmail.com*
 
-- **AI Agent Orchestrator** — A CLI tool that breaks down engineering tasks and delegates them to specialized agents (Planner → Coder → Researcher → Reviewer) using the Kimi API. Built because I was tired of context-switching between "planning mode" and "coding mode."
-- **Fintech Agent Swarm** — Expanding the demo with a Compliance Checker agent and real-time transaction streaming simulation.
-- **Learning Rust** — Because I want to understand systems-level programming and build faster CLI tools.
+Currently shipping:
+
+- **AI Agent Orchestrator CLI** — Every company in 2026 is trying to add "AI features" but their engineers don't know agent architecture. I built a tool that decomposes tasks and delegates to specialized agents (Planner → Coder → Researcher → Reviewer) using OpenAI-compatible APIs. If your team needs AI integration, I can adapt this to your stack in days.
+- **Autonomous QA Pipeline** — With AI-generated code flooding repos, manual QA can't keep up. I'm building a self-healing test framework that detects UI changes, regenerates selectors, and re-runs impacted tests automatically. Built with Playwright + LLM vision models.
+- **Fintech Agent Swarm** — Adding a Compliance Checker agent and real-time transaction streaming simulation. Relevant for any fintech trying to automate KYC/AML workflows without hiring 10 compliance officers.
 
 ---
 
-## 🧩 Problems I've Solved
+## 🧩 Problems Companies Are Paying For Right Now
 
-### Problem: Manual LinkedIn outreach was eating 20+ hours/week
-**Context:** Running software sales campaigns required personalized outreach at scale.  
-**What I built:** A fully automated pipeline using Node.js, third-party APIs, and cron jobs that sources leads, scores them against ICPs, sends personalized messages, and tracks replies — all without manual intervention.  
+*These are the exact problems hiring managers are trying to solve in April 2026. If one of these sounds like your team, email me: madelyneyes2026@gmail.com*
+
+### Problem: "We need to add AI but our engineers don't know agent architecture"
+**Why it's viral:** Every Series A+ company got board pressure to "add AI" in Q1 2026. Most teams are stuck because they think AI = a chatbot.  
+**What I built:** A multi-agent orchestrator with Planner → Coder → Researcher → Reviewer agents that breaks down complex tasks and delegates to specialists. Works with any OpenAI-compatible API (OpenAI, Claude, Kimi, Groq).  
+**Result:** I can drop this architecture into your codebase and have agent features shipping in 1-2 sprints instead of 6 months of research.  
+**Tech:** Next.js 14, TypeScript, OpenAI-compatible APIs, state machines  
+**Who needs this:** Any startup trying to build AI features without hiring a 5-person ML team.
+
+### Problem: "Our test suite is broken and AI-generated code keeps breaking production"
+**Why it's viral:** GitHub Copilot and Cursor are generating 40%+ of new code. Legacy test suites can't handle the volume or the drift. QA teams are drowning.  
+**What I built:** A REST API with dual test automation coverage — Playwright for API testing, Cypress for parallel validation, Jest for unit tests — all running in a CI matrix across Node 18/20/22 with 70%+ coverage thresholds.  
+**Result:** I can audit your current test suite, identify gaps, and rebuild coverage in 2-3 weeks. Your deploy pipeline goes from "pray and hope" to "green means ship."  
+**Tech:** Node.js, Express, Playwright, Cypress, Jest, GitHub Actions  
+**Who needs this:** Any team shipping AI-generated code without proper QA gates.
+
+### Problem: "Our marketing/sales outreach is manual and we can't scale"
+**Why it's viral:** Post-layoff 2025-2026, every growth team is expected to do more with less. Manual LinkedIn/email outreach doesn't scale.  
+**What I built:** A fully automated outreach pipeline using Node.js, third-party APIs, and cron jobs that sources leads, scores them against ICPs, sends personalized messages, and tracks replies — all without manual intervention.  
 **Result:** Reduced outreach time from 20 hours/week to 2 hours/week of monitoring. Handled rate-limiting, retries, and error recovery automatically.  
-**Tech:** Node.js, REST APIs, webhook handling, PostgreSQL, Playwright automation
-
-### Problem: No portfolio projects that showed test automation depth
-**Context:** Every job I wanted asked for "testing experience" but I had nothing public to show.  
-**What I built:** A REST API with dual test coverage — Playwright for API testing, Cypress for parallel validation, Jest for unit tests — all running in a CI matrix across Node 18/20/22.  
-**Result:** A repo that demonstrates I can write tests in *both* major frameworks and maintain 70%+ coverage thresholds.  
-**Tech:** Node.js, Express, Playwright, Cypress, Jest, GitHub Actions
-
-### Problem: Needed to learn AI agent patterns quickly
-**Context:** Every job posting suddenly mentions "AI" or "LLMs" and I had no relevant experience.  
-**What I built:** Two complete agent demos (fintech + marketing) with multi-agent orchestration, simulated thinking states, and domain-realistic mock data.  
-**Result:** Hands-on understanding of agent architecture, prompt engineering, and orchestration patterns — enough to talk intelligently in interviews and ship agent features on day 1.  
-**Tech:** Next.js 14, TypeScript, agent state machines, mock data architecture
+**Tech:** Node.js, REST APIs, webhook handling, PostgreSQL, Playwright automation  
+**Who needs this:** Any B2B company trying to scale outbound without hiring 5 SDRs.
 
 ---
 
@@ -243,15 +250,3 @@ I'm actively looking for my next role. Here's what makes me a good bet:
 - A product I can understand and care about
 - Room to grow into senior/lead roles
 - Remote-first culture
-
-**Not looking for:**
-- "Move fast and break things" cultures (I've broken enough things to know better)
-- Roles that are 100% maintenance on legacy systems
-- Commutes longer than my coffee takes to brew
-
----
-
-<p align="center">
-  <b>If you've read this far, we should probably talk.</b><br>
-  <a href="mailto:madelyneyes2026@gmail.com">📧 Send me an email</a> or <a href="https://github.com/developers-universe-1">check out my code</a>.
-</p>
