@@ -1,32 +1,70 @@
-<h1 align="center">Hi, I'm Madelyn 👋</h1>
+<h1 align="center">Madelyn R. — Full-Stack Engineer</h1>
 
 <p align="center">
-  <b>Full-Stack Engineer</b> · <b>API Builder</b> · <b>AI Agent Developer</b>
+  <b>I build full-stack apps, design REST APIs, and write test automation that actually catches bugs.</b><br>
+  <sub>3–5 years shipping code. Next.js · TypeScript · Node.js · Playwright · Cypress</sub>
 </p>
 
 <p align="center">
-  <a href="https://github.com/developers-universe-1/api-testing-sandbox">
-    <img src="https://img.shields.io/badge/Focus-REST_APIs-3b82f6?style=flat-square&logo=fastapi&logoColor=white" />
-  </a>
-  <a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">
-    <img src="https://img.shields.io/badge/Focus-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
-  </a>
-  <a href="https://github.com/developers-universe-1/fintech-agent-demo">
-    <img src="https://img.shields.io/badge/Focus-AI_Agents-8b5cf6?style=flat-square&logo=openai&logoColor=white" />
-  </a>
+  <a href="mailto:your-email@example.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/developers-universe-1"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
 </p>
 
 ---
 
-### 🏆 GitHub Trophies
+## 🎯 What I Do
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=developers-universe-1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1" />
-</p>
+I turn ideas into production-ready applications. I work across the entire stack — from database schema design to React component architecture to E2E test coverage — and I ship fast without sacrificing quality.
+
+**Recent focus:** Building AI agent systems and multi-agent orchestration UIs for fintech and marketing tech.
 
 ---
 
-### 🛠️ Tech Stack
+## 📊 By The Numbers
+
+| Metric | Detail |
+|--------|--------|
+| **Stack** | Next.js 14, React, TypeScript, Node.js, Express, PostgreSQL, Prisma, Tailwind CSS |
+| **Testing** | Playwright, Cypress, Jest — API, E2E, and unit coverage |
+| **AI/LLM** | Multi-agent orchestration, OpenAI-compatible APIs, prompt engineering |
+| **CI/CD** | GitHub Actions with matrix testing (Node 18/20/22) |
+| **Domains** | Fintech risk analysis, marketing automation, API platforms, dashboards |
+| **Speed** | Full-stack MVPs in days, not weeks |
+
+---
+
+## 🏆 Featured Work
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/developers-universe-1/fintech-agent-demo">🏦 Fintech Agent Demo</a></h3>
+      <p>Multi-agent AI system for financial analysis. 4 specialized agents (Risk, Fraud, Categorizer, Reporter) collaborate on mock loan and transaction data.</p>
+      <p><strong>Built with:</strong> Next.js 14 · TypeScript · Tailwind · Agent orchestration patterns</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/developers-universe-1/marketing-agent-demo">📢 Marketing Agent Demo</a></h3>
+      <p>Multi-agent AI system for marketing operations. 4 agents (Campaign Analyst, Lead Scorer, Content Generator, Strategist) process mock campaign and lead data.</p>
+      <p><strong>Built with:</strong> Next.js 14 · TypeScript · Tailwind · Mock data architecture</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/developers-universe-1/api-testing-sandbox">🧪 API Testing Sandbox</a></h3>
+      <p>Production-quality REST API demonstrating dual test automation coverage. 15+ Playwright API tests, 15+ Cypress API tests, Jest unit tests with 70% thresholds, rate limiting, JWT auth, and OpenAPI docs.</p>
+      <p><strong>Built with:</strong> Node.js · Express · Playwright · Cypress · Jest · CI/CD</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">📊 Next.js Dashboard Starter</a></h3>
+      <p>Full-stack dashboard with NextAuth, Prisma ORM, server-side filtering/pagination, optimistic UI updates, and Playwright E2E tests covering auth flows and CRUD.</p>
+      <p><strong>Built with:</strong> Next.js 14 · TypeScript · Prisma · NextAuth · Playwright</p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
@@ -38,7 +76,6 @@
   <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
 </p>
-
 <p align="left">
   <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
   <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" />
@@ -49,65 +86,30 @@
 
 ---
 
-### 📌 Featured Projects
-
-<table>
-  <tr>
-    <td width="33%">
-      <h3><a href="https://github.com/developers-universe-1/fintech-agent-demo">🏦 Fintech Agent Demo</a></h3>
-      <p>Mock AI agents for fintech: risk analysis, fraud detection, transaction categorization, and report generation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/AI_Agents-8b5cf6?style=flat" />
-      </p>
-    </td>
-    <td width="33%">
-      <h3><a href="https://github.com/developers-universe-1/marketing-agent-demo">📢 Marketing Agent Demo</a></h3>
-      <p>Mock AI agents for marketing: campaign analysis, lead scoring, content generation, and strategy planning.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/AI_Agents-8b5cf6?style=flat" />
-      </p>
-    </td>
-    <td width="33%">
-      <h3><a href="https://github.com/developers-universe-1/api-testing-sandbox">🧪 API Testing Sandbox</a></h3>
-      <p>REST API with dual Playwright + Cypress test coverage, Jest unit tests, rate limiting, auth, and CI matrix.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white&style=flat" />
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%">
-      <h3><a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">📊 Next.js Dashboard Starter</a></h3>
-      <p>Full-stack Next.js 14 dashboard with NextAuth, Prisma, server-side filtering, optimistic UI, and E2E tests.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat" />
-      </p>
-    </td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
----
-
-### 🎯 What I'm Looking For
+## 💼 What I'm Looking For
 
 - **Frontend Engineer (Next.js)** — Building modern React apps with great UX
-- **Backend Engineer** — Designing and shipping APIs that other developers love using
-- **Full-Stack Engineer** — End-to-end ownership from database to UI
-- **AI/LLM Engineer** — Building agent systems and AI-powered applications
+- **Backend Engineer** — Designing APIs that other developers love consuming
+- **Full-Stack Engineer** — End-to-end ownership from DB schema to pixel
+- **SDET / QA Engineer** — Owning test strategy and automation frameworks
+- **AI/LLM Engineer** — Building agent systems and AI-powered product features
+
+**Must-haves:** Remote-friendly, collaborative team, room to grow  
+**Nice-to-haves:** Greenfield projects, strong testing culture, AI/ML adjacent
 
 ---
 
-### 📊 GitHub Stats
+## 🧠 How I Work
+
+1. **Start with the problem** — I don't write code until I understand what we're solving and for whom.
+2. **Ship the core first** — I build the smallest viable version that demonstrates value, then iterate.
+3. **Test as I go** — Playwright, Cypress, or Jest coverage isn't an afterthought; it's part of the feature.
+4. **Document everything** — Clean READMEs, OpenAPI specs, and inline comments so the next engineer isn't lost.
+5. **Agent-augmented** — I use AI agent teams (Kimi Code, Claude) to accelerate boilerplate and explore solutions, then own the critical decisions.
+
+---
+
+## 📈 GitHub Stats
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=developers-universe-1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
@@ -122,8 +124,6 @@
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=developers-universe-1&theme=github-dark&hide_border=true" />
 </p>
 
----
-
 <p align="center">
-  <i>Companies use AI to filter candidates. I just built the tools to choose companies.</i>
+  <img src="https://github-profile-trophy.vercel.app/?username=developers-universe-1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1" />
 </p>
