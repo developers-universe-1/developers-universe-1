@@ -193,8 +193,7 @@ Currently shipping:
 
 ---
 
-## 🧩 Problems Companies Are Paying For Right Now
-
+## 🧩 Problems Solved Recently
 *These are the exact problems hiring managers are trying to solve in April 2026. If one of these sounds like your team, email me: madelyneyes2026@gmail.com*
 
 ### Problem: "We need to add AI but our engineers don't know agent architecture"
