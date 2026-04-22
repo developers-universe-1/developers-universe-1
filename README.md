@@ -11,7 +11,7 @@
   <a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">
     <img src="https://img.shields.io/badge/Focus-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
   </a>
-  <a href="https://github.com/developers-universe-1/ai-agent-swarm">
+  <a href="https://github.com/developers-universe-1/fintech-agent-demo">
     <img src="https://img.shields.io/badge/Focus-AI_Agents-8b5cf6?style=flat-square&logo=openai&logoColor=white" />
   </a>
 </p>
@@ -45,7 +45,6 @@
   <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kimi_AI-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
 ---
@@ -55,8 +54,17 @@
 <table>
   <tr>
     <td width="33%">
-      <h3><a href="https://github.com/developers-universe-1/ai-agent-swarm">🤖 AI Agent Swarm</a></h3>
-      <p>Multi-agent orchestrator with Next.js, TypeScript, and Kimi AI. Planner, Researcher & Executor agents collaborate to solve tasks.</p>
+      <h3><a href="https://github.com/developers-universe-1/fintech-agent-demo">🏦 Fintech Agent Demo</a></h3>
+      <p>Mock AI agents for fintech: risk analysis, fraud detection, transaction categorization, and report generation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
+        <img src="https://img.shields.io/badge/AI_Agents-8b5cf6?style=flat" />
+      </p>
+    </td>
+    <td width="33%">
+      <h3><a href="https://github.com/developers-universe-1/marketing-agent-demo">📢 Marketing Agent Demo</a></h3>
+      <p>Mock AI agents for marketing: campaign analysis, lead scoring, content generation, and strategy planning.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
@@ -65,22 +73,26 @@
     </td>
     <td width="33%">
       <h3><a href="https://github.com/developers-universe-1/api-testing-sandbox">🧪 API Testing Sandbox</a></h3>
-      <p>REST API with dual Playwright + Cypress test coverage, Jest unit tests, rate limiting, auth, and CI matrix across Node 18/20/22.</p>
+      <p>REST API with dual Playwright + Cypress test coverage, Jest unit tests, rate limiting, auth, and CI matrix.</p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white&style=flat" />
+        <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white&style=flat" />
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="33%">
       <h3><a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">📊 Next.js Dashboard Starter</a></h3>
-      <p>Full-stack Next.js 14 dashboard with NextAuth, Prisma, server-side filtering, optimistic UI, and Playwright E2E tests.</p>
+      <p>Full-stack Next.js 14 dashboard with NextAuth, Prisma, server-side filtering, optimistic UI, and E2E tests.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat" />
       </p>
     </td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
