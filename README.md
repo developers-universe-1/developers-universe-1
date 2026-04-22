@@ -178,3 +178,80 @@ I turn ideas into production-ready applications. I work across the entire stack 
 <p align="center">
   <i>Companies use AI to filter candidates. I just built the tools to choose companies.</i>
 </p>
+
+---
+
+## 🚀 What I'm Building Now
+
+Currently working on:
+
+- **AI Agent Orchestrator** — A CLI tool that breaks down engineering tasks and delegates them to specialized agents (Planner → Coder → Researcher → Reviewer) using the Kimi API. Built because I was tired of context-switching between "planning mode" and "coding mode."
+- **Fintech Agent Swarm** — Expanding the demo with a Compliance Checker agent and real-time transaction streaming simulation.
+- **Learning Rust** — Because I want to understand systems-level programming and build faster CLI tools.
+
+---
+
+## 🧩 Problems I've Solved
+
+### Problem: Manual LinkedIn outreach was eating 20+ hours/week
+**Context:** Running software sales campaigns required personalized outreach at scale.  
+**What I built:** A fully automated pipeline using Node.js, third-party APIs, and cron jobs that sources leads, scores them against ICPs, sends personalized messages, and tracks replies — all without manual intervention.  
+**Result:** Reduced outreach time from 20 hours/week to 2 hours/week of monitoring. Handled rate-limiting, retries, and error recovery automatically.  
+**Tech:** Node.js, REST APIs, webhook handling, PostgreSQL, Playwright automation
+
+### Problem: No portfolio projects that showed test automation depth
+**Context:** Every job I wanted asked for "testing experience" but I had nothing public to show.  
+**What I built:** A REST API with dual test coverage — Playwright for API testing, Cypress for parallel validation, Jest for unit tests — all running in a CI matrix across Node 18/20/22.  
+**Result:** A repo that demonstrates I can write tests in *both* major frameworks and maintain 70%+ coverage thresholds.  
+**Tech:** Node.js, Express, Playwright, Cypress, Jest, GitHub Actions
+
+### Problem: Needed to learn AI agent patterns quickly
+**Context:** Every job posting suddenly mentions "AI" or "LLMs" and I had no relevant experience.  
+**What I built:** Two complete agent demos (fintech + marketing) with multi-agent orchestration, simulated thinking states, and domain-realistic mock data.  
+**Result:** Hands-on understanding of agent architecture, prompt engineering, and orchestration patterns — enough to talk intelligently in interviews and ship agent features on day 1.  
+**Tech:** Next.js 14, TypeScript, agent state machines, mock data architecture
+
+---
+
+## ⚖️ My Engineering Principles
+
+1. **Tests are documentation** — If a new engineer can't understand the codebase from the tests, the tests aren't good enough.
+2. **Ship the core first** — I build the smallest version that proves value, then iterate. I've seen too many projects die from premature optimization.
+3. **Mock data should pass the smell test** — If your fake transaction data has "$999,999.99" amounts, it looks like you don't understand the domain. Realistic mock data shows domain expertise.
+4. **Agent-augmented, not agent-replaced** — I use AI to accelerate boilerplate and explore, but I own the architecture decisions and edge case handling.
+5. **The UI is part of the API** — A beautiful backend with a confusing frontend is a failed product. I design for the user, not the database.
+
+---
+
+## 💬 Let's Talk
+
+I'm actively looking for my next role. Here's what makes me a good bet:
+
+- **I ship fast** — Full-stack MVPs in days, not months
+- **I test everything** — Playwright, Cypress, Jest — coverage is non-negotiable
+- **I understand domains** — Fintech risk models, marketing attribution, sales automation
+- **I learn in public** — Every project is on GitHub with clean READMEs and architecture docs
+- **I use AI tools** — Not afraid of LLMs, agents, or copilots — I build with them
+
+**📧 Email:** your-email@example.com  
+**🐙 GitHub:** github.com/developers-universe-1  
+**🟢 Status:** Available immediately, open to contract or full-time  
+**📍 Location:** United States (Remote)
+
+**What I'm looking for:**
+- A team that values test coverage and code quality
+- A product I can understand and care about
+- Room to grow into senior/lead roles
+- Remote-first culture
+
+**Not looking for:**
+- "Move fast and break things" cultures (I've broken enough things to know better)
+- Roles that are 100% maintenance on legacy systems
+- Commutes longer than my coffee takes to brew
+
+---
+
+<p align="center">
+  <b>If you've read this far, we should probably talk.</b><br>
+  <a href="mailto:your-email@example.com">📧 Send me an email</a> or <a href="https://github.com/developers-universe-1">check out my code</a>.
+</p>
