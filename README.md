@@ -33,7 +33,95 @@ I turn ideas into production-ready applications. I work across the entire stack 
 
 ---
 
-## 🏆 Featured Work
+## 🏗️ How I Architect Systems
+
+### Multi-Agent Orchestration Pattern
+
+```
+┌─────────────────────────────────────────┐
+│           User Request                  │
+└─────────────────┬───────────────────────┘
+                  ▼
+┌─────────────────────────────────────────┐
+│  🎯 Planner Agent                       │
+│  Breaks goal into subtasks              │
+│  Assigns to specialist agents           │
+└─────────────────┬───────────────────────┘
+                  ▼
+┌──────────┐  ┌──────────┐  ┌──────────┐
+│💻 Coder  │  │🔬 Research│  │✍️ Writer │
+│Agent     │  │er Agent  │  │Agent     │
+└────┬─────┘  └────┬─────┘  └────┬─────┘
+     └─────────────┴─────────────┘
+                   ▼
+┌─────────────────────────────────────────┐
+│  🔍 Reviewer Agent                      │
+│  QA checks, approves or flags issues    │
+└─────────────────┬───────────────────────┘
+                  ▼
+┌─────────────────────────────────────────┐
+│           Final Output                  │
+└─────────────────────────────────────────┘
+```
+
+**Used in:** [fintech-agent-demo](https://github.com/developers-universe-1/fintech-agent-demo) · [marketing-agent-demo](https://github.com/developers-universe-1/marketing-agent-demo)
+
+### Full-Stack Dashboard Architecture
+
+```
+┌─────────────┐     ┌─────────────┐     ┌─────────────┐
+│   Next.js   │────▶│  NextAuth   │────▶│   Prisma    │
+│  (App Rtr)  │     │   (JWT)     │     │   (ORM)     │
+└──────┬──────┘     └─────────────┘     └──────┬──────┘
+       │                                         │
+       ▼                                         ▼
+┌─────────────┐                         ┌─────────────┐
+│   React     │                         │  PostgreSQL │
+│  Client UI  │                         │   / SQLite  │
+└─────────────┘                         └─────────────┘
+```
+
+**Used in:** [nextjs-dashboard-starter](https://github.com/developers-universe-1/nextjs-dashboard-starter)
+
+### API Testing Pyramid
+
+```
+        ▲
+       ╱ ╲      E2E (Playwright + Cypress)
+      ╱   ╲     Full API flow validation
+     ╱─────╲
+    ╱       ╲   Unit (Jest + Supertest)
+   ╱         ╲  Middleware, validation, edge cases
+  ╱───────────╲
+```
+
+**Used in:** [api-testing-sandbox](https://github.com/developers-universe-1/api-testing-sandbox)
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" />
+  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
+
+---
+
+## 📌 Featured Projects
 
 <table>
   <tr>
@@ -64,28 +152,6 @@ I turn ideas into production-ready applications. I work across the entire stack 
 
 ---
 
-## 🛠️ Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" />
-</p>
-<p align="left">
-  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white" />
-  <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-</p>
-
----
-
 ## 💼 What I'm Looking For
 
 - **Frontend Engineer (Next.js)** — Building modern React apps with great UX
@@ -105,25 +171,10 @@ I turn ideas into production-ready applications. I work across the entire stack 
 2. **Ship the core first** — I build the smallest viable version that demonstrates value, then iterate.
 3. **Test as I go** — Playwright, Cypress, or Jest coverage isn't an afterthought; it's part of the feature.
 4. **Document everything** — Clean READMEs, OpenAPI specs, and inline comments so the next engineer isn't lost.
-5. **Agent-augmented** — I use AI agent teams (Kimi Code, Claude) to accelerate boilerplate and explore solutions, then own the critical decisions.
+5. **Agent-augmented** — I use AI agent teams to accelerate boilerplate and explore solutions, then own the critical decisions.
 
 ---
 
-## 📈 GitHub Stats
-
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=developers-universe-1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developers-universe-1&layout=compact&theme=github_dark&hide_border=true&count_private=true&langs_count=8" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=developers-universe-1&theme=github-dark-blue&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=developers-universe-1&theme=github-dark&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=developers-universe-1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1" />
+  <i>Companies use AI to filter candidates. I just built the tools to choose companies.</i>
 </p>
