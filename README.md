@@ -1,7 +1,7 @@
 <h1 align="center">Hi, I'm Madelyn 👋</h1>
 
 <p align="center">
-  <b>Full-Stack Engineer</b> · <b>API Builder</b> · <b>Test Automation Enthusiast</b>
+  <b>Full-Stack Engineer</b> · <b>API Builder</b> · <b>AI Agent Developer</b>
 </p>
 
 <p align="center">
@@ -11,9 +11,17 @@
   <a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">
     <img src="https://img.shields.io/badge/Focus-Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
   </a>
-  <a href="https://github.com/developers-universe-1/api-testing-sandbox">
-    <img src="https://img.shields.io/badge/Focus-Test_Automation-2ead33?style=flat-square&logo=playwright&logoColor=white" />
+  <a href="https://github.com/developers-universe-1/ai-agent-swarm">
+    <img src="https://img.shields.io/badge/Focus-AI_Agents-8b5cf6?style=flat-square&logo=openai&logoColor=white" />
   </a>
+</p>
+
+---
+
+### 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=developers-universe-1&theme=darkhub&no-frame=true&no-bg=true&margin-w=4&row=1" />
 </p>
 
 ---
@@ -37,6 +45,7 @@
   <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kimi_AI-8b5cf6?style=for-the-badge&logo=openai&logoColor=white" />
 </p>
 
 ---
@@ -45,22 +54,29 @@
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="33%">
+      <h3><a href="https://github.com/developers-universe-1/ai-agent-swarm">🤖 AI Agent Swarm</a></h3>
+      <p>Multi-agent orchestrator with Next.js, TypeScript, and Kimi AI. Planner, Researcher & Executor agents collaborate to solve tasks.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
+        <img src="https://img.shields.io/badge/AI_Agents-8b5cf6?style=flat" />
+      </p>
+    </td>
+    <td width="33%">
       <h3><a href="https://github.com/developers-universe-1/api-testing-sandbox">🧪 API Testing Sandbox</a></h3>
       <p>REST API with dual Playwright + Cypress test coverage, Jest unit tests, rate limiting, auth, and CI matrix across Node 18/20/22.</p>
       <p>
         <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white&style=flat" />
       </p>
     </td>
-    <td width="50%">
+    <td width="33%">
       <h3><a href="https://github.com/developers-universe-1/nextjs-dashboard-starter">📊 Next.js Dashboard Starter</a></h3>
       <p>Full-stack Next.js 14 dashboard with NextAuth, Prisma, server-side filtering, optimistic UI, and Playwright E2E tests.</p>
       <p>
         <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=flat" />
         <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat" />
       </p>
@@ -74,16 +90,24 @@
 
 - **Frontend Engineer (Next.js)** — Building modern React apps with great UX
 - **Backend Engineer** — Designing and shipping APIs that other developers love using
-- **SDET / QA Engineer** — Writing Cypress/Playwright tests, owning quality strategy
-- **GTM Engineer** — Building automation infrastructure, API integrations, data pipelines
+- **Full-Stack Engineer** — End-to-end ownership from database to UI
+- **AI/LLM Engineer** — Building agent systems and AI-powered applications
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=developers-universe-1&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=developers-universe-1&layout=compact&theme=github_dark&hide_border=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=developers-universe-1&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=developers-universe-1&layout=compact&theme=github_dark&hide_border=true&count_private=true&langs_count=8" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=developers-universe-1&theme=github-dark-blue&hide_border=true" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=developers-universe-1&theme=github-dark&hide_border=true" />
 </p>
 
 ---
