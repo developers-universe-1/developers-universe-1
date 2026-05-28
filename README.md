@@ -414,23 +414,31 @@ flowchart TD
 
 ## 🌱 Open Source Contributions
 
-I contribute to tools at the intersection of AI, revenue systems, and developer infrastructure.
+Active contributor to developer infrastructure and AI tooling at scale. I ship bug fixes, documentation improvements, and quality-of-life updates across the projects I use in production every day.
 
-### AI Sales & GTM Tools
+### Where I've Contributed
 
-| Project | Why It Matters | Contribution Angle |
-|---------|---------------|-------------------|
-| **[SalesGPT](https://github.com/filip-michalsky/SalesGPT)** | Context-aware AI sales agent using LangChain. 1.8k+ stars. Built for autonomous outreach. | Add multi-channel sequence support (email → LinkedIn → call), improve objection handling memory |
-| **[CrewAI](https://github.com/joaomdmoura/crewai)** | Multi-agent orchestration framework. Role-based agents ideal for sales teams (researcher → copywriter → reviewer). | Build a "Revenue Crew" template: planner, researcher, outreach writer, and deal analyst agents |
-| **[Bricks](https://github.com/BraaMohammed/bricks)** | Open-source Clay.com alternative. AI agents + web scraping + Puppeteer for lead enrichment. | Add Apollo.io/Clearbit connector nodes, build ICP scoring pipeline |
-| **[Twenty CRM](https://github.com/twentyhq/twenty)** | Open-source CRM for modern revenue teams. TypeScript + NestJS + PostgreSQL. | Frontend components, API integrations, activity timeline features |
+| Project | Why It Matters | Focus Areas |
+|---------|---------------|-------------|
+| **[PostHog](https://github.com/PostHog/posthog)** | Product analytics + feature flags. The open-source alternative to Mixpanel/Amplitude. | Frontend fixes, AI prompt template corrections, test descriptions |
+| **[n8n](https://github.com/n8n-io/n8n)** | Workflow automation platform. Core infrastructure for RevOps data pipelines. | UI text fixes and documentation improvements across node definitions |
+| **[CrewAI](https://github.com/joaomdmoura/crewai)** | Multi-agent orchestration framework. Role-based agents for sales & ops teams. | Tooling fixes and error message corrections |
+| **[Cal.com](https://github.com/calcom/cal.com)** | Open-source scheduling infrastructure. TypeScript + Next.js + PostgreSQL. | i18n string corrections and TypeScript utility fixes |
 
-### Developer Infrastructure
+**Recent PRs:**
+- PostHog: [#60409](https://github.com/PostHog/posthog/pull/60409) · [#60411](https://github.com/PostHog/posthog/pull/60411)
+- n8n: [#31272](https://github.com/n8n-io/n8n/pull/31272) · [#31275](https://github.com/n8n-io/n8n/pull/31275)
+- CrewAI: [#5960](https://github.com/crewAIInc/crewAI/pull/5960)
+- Cal.com: [#29477](https://github.com/calcom/cal.diy/pull/29477) · [#29478](https://github.com/calcom/cal.diy/pull/29478)
 
-| Project | Why It Matters | Contribution Angle |
-|---------|---------------|-------------------|
-| **[LangChain](https://github.com/langchain-ai/langchain)** | The standard framework for LLM applications. Powers every AI system I build. | Add structured output examples for sales use cases, Zod schema patterns |
-| **[n8n](https://github.com/n8n-io/n8n)** | Workflow automation platform. Core infrastructure for RevOps data pipelines. | Build CRM/data enrichment nodes (Apollo, Clearbit, ZoomInfo) |
+### Ecosystem I Follow
+
+| Project | Why It Matters |
+|---------|---------------|
+| **[SalesGPT](https://github.com/filip-michalsky/SalesGPT)** | Context-aware AI sales agent using LangChain. 1.8k+ stars. Built for autonomous outreach. |
+| **[Bricks](https://github.com/BraaMohammed/bricks)** | Open-source Clay.com alternative. AI agents + web scraping for lead enrichment. |
+| **[Twenty CRM](https://github.com/twentyhq/twenty)** | Open-source CRM for modern revenue teams. TypeScript + NestJS + PostgreSQL. |
+| **[LangChain](https://github.com/langchain-ai/langchain)** | The standard framework for LLM applications. Powers every AI system I build. |
 
 > **Want to collaborate?** I'm always looking for interesting open-source projects at the intersection of AI, revenue systems, and developer tools.
 
