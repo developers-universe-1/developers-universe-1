@@ -424,12 +424,14 @@ Active contributor to developer infrastructure and AI tooling at scale. I ship b
 | **[n8n](https://github.com/n8n-io/n8n)** | Workflow automation platform. Core infrastructure for RevOps data pipelines. | UI text fixes and documentation improvements across node definitions |
 | **[CrewAI](https://github.com/joaomdmoura/crewai)** | Multi-agent orchestration framework. Role-based agents for sales & ops teams. | Tooling fixes and error message corrections |
 | **[Cal.com](https://github.com/calcom/cal.com)** | Open-source scheduling infrastructure. TypeScript + Next.js + PostgreSQL. | i18n string corrections and TypeScript utility fixes |
+| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Open-source AI agent framework. Python gateway, event hooks, error classification, MCP config. | Bug fixes in hook registry, error classifier, and CLI arg parsing |
 
 **Recent PRs:**
 - PostHog: [#60409](https://github.com/PostHog/posthog/pull/60409) · [#60411](https://github.com/PostHog/posthog/pull/60411)
 - n8n: [#31272](https://github.com/n8n-io/n8n/pull/31272) · [#31275](https://github.com/n8n-io/n8n/pull/31275)
 - CrewAI: [#5960](https://github.com/crewAIInc/crewAI/pull/5960)
 - Cal.com: [#29477](https://github.com/calcom/cal.diy/pull/29477) · [#29478](https://github.com/calcom/cal.diy/pull/29478)
+- hermes-agent: [#37486](https://github.com/NousResearch/hermes-agent/pull/37486) · [#37526](https://github.com/NousResearch/hermes-agent/pull/37526) · [#37531](https://github.com/NousResearch/hermes-agent/pull/37531)
 
 ### Ecosystem I Follow
 
