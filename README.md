@@ -253,12 +253,29 @@ flowchart TD
       <p><strong>Next.js 14 · Supabase · Unipile · Apify · OpenCode/OpenRouter · ElevenLabs · Clerk · Stripe · Netlify</strong></p>
     </td>
     <td width="50%">
+      <h3>💼 <a href="https://github.com/developers-universe-1/agentic-sales-engine">Agentic Sales Engine</a></h3>
+      <p>MCP-native sales intelligence framework. Orchestrates CRM, call recorders, and email through a unified Model Context Protocol layer.</p>
+      <p><strong>Next.js · TypeScript · MCP · Prisma · GPT-4o</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>📢 <a href="https://github.com/developers-universe-1/agentic-outreach-engine">Agentic Outreach Engine</a></h3>
+      <p>MCP-native multi-channel outreach server. Sequence orchestration, reply classification, and auto-tuning as typed MCP tools.</p>
+      <p><strong>Next.js · TypeScript · MCP · Node.js</strong></p>
+    </td>
+    <td width="50%">
+      <h3>🏦 <a href="https://github.com/developers-universe-1/agentic-revenue-intelligence">Agentic Revenue Intelligence</a></h3>
+      <p>MCP-native revenue intelligence server. Attribution, lead scoring, CRM hygiene, and pipeline forecasting as typed MCP tools.</p>
+      <p><strong>Python · FastAPI · PostgreSQL · MCP · Salesforce API</strong></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
       <h3>🧩 <a href="vertex-ai-rag-agent/README.md">Vertex AI RAG Agent</a></h3>
       <p>Customer support agent with retrieval, source citations, eval harness, latency budget, and cost tracking. Deployable to Cloud Run.</p>
       <p><strong>Python · FastAPI · Vertex AI (Gemini) · pgvector · Cloud SQL · Cloud Run</strong></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%">
       <h3>🧭 <a href="fde-case-studies/README.md">FDE Case Studies & Post-Mortems</a></h3>
       <p>Decomposition case studies, a production incident post-mortem, and AI evaluation docs — how I work with customers, in writing.</p>
