@@ -118,7 +118,7 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=850&lines=CalendarFuel+in+Production;Real+Features+%C2%B7+Real+Customers+%C2%B7+Real+Metrics" alt="Selected Work Header" />
 </p>
 
-All three systems below are live in **CalendarFuel** ([calendarfuel.co](https://calendarfuel.co)) — the LinkedIn outreach platform I build and operate for ~50 customers across 10 companies.
+All three systems below are live in **CalendarFuel** ([calendarfuel.co](https://calendarfuel.co)) — the LinkedIn outreach platform I build and operate for ~50 customers across 10 companies. The [decomposition case studies](fde-case-studies/README.md) in my FDE Portfolio are two client deployments of this platform written end-to-end — the metrics here and there are the same systems at different altitudes.
 
 ---
 
@@ -297,7 +297,7 @@ I deploy on GCP, AWS, and Vercel — infrastructure decisions are driven by cust
 
 ---
 
-## 💼 Looking For
+## 🎯 Looking For
 
 - **Forward Deployed Engineer** — embedded with customers, shipping AI-native systems from discovery to production
 
