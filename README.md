@@ -24,11 +24,11 @@
 
 ## ✨ TL;DR
 
-I'm a **Forward Deployed Engineer**: I embed with customers, map their workflows, and ship production software that solves them. 7 years as a Software Engineer shipping **TypeScript/React/Next.js**, **Python/FastAPI/Node.js**, and **PostgreSQL** — from fintech (SoFi, Ally) to government/defense (General Dynamics IT). Now at CalendarFuel, I design and deploy **AI-enabled applications, LLM agents, and integration architecture** for real customer environments.
+I'm a **Forward Deployed Engineer**: I embed with customers, map their workflows, and ship production software that solves them. 7 years shipping **TypeScript/React/Next.js**, **Python/FastAPI/Node.js**, and **PostgreSQL** — from fintech (SoFi) to government/defense (General Dynamics IT). Now at CalendarFuel, I build and run the **LinkedIn outreach platform** end-to-end — warm signal detection, LLM ICP scoring, personalized sequences, and autopilot booking — for real customer environments.
 
-**Currently in production:** ~50 customers and campaigns across 10 companies · 20–30 active LinkedIn profiles operated for internal sales teams · workflows processing up to **500K prospects/records per month** · ~1 week faster time-to-close through automated research, personalized outreach, and sales intelligence.
+**Currently in production:** ~50 customers and campaigns across 10 companies · workflows processing up to **500K prospects/records per month** · ~1 week faster time-to-close through automated research, personalized outreach, and sales intelligence.
 
-I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily — using **GPT-4o**, **GPT-4o-mini**, **Claude 3.5 Sonnet**, and **Claude 3 Opus** to accelerate architecture, not replace judgment.
+I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily — using **GPT-4o**, **GPT-4o-mini**, **Claude 3.5 Sonnet**, and **Claude 3 Opus** to accelerate architecture, not replace judgment. Every AI system I ship comes with eval gates and a rollback path.
 
 ---
 
@@ -94,7 +94,7 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat-square" />
@@ -102,8 +102,6 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
   <img src="https://img.shields.io/badge/Salesforce-00A1E0?logo=salesforce&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/HubSpot-FF7A59?logo=hubspot&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Apollo-1D4ED8?logo=apolloGraphQL&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white&style=flat-square" />
@@ -117,182 +115,124 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 ## 📚 Selected Work
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=850&lines=Customer+Problems+%E2%86%92+Deployed+Solutions;Production+Architecture+%C2%B7+Measurable+Impact" alt="Selected Work Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=850&lines=CalendarFuel+in+Production;Real+Features+%C2%B7+Real+Customers+%C2%B7+Real+Metrics" alt="Selected Work Header" />
 </p>
+
+All three systems below are live in **CalendarFuel** ([calendarfuel.co](https://calendarfuel.co)) — the LinkedIn outreach platform I build and operate for ~50 customers across 10 companies.
 
 ---
 
-### $1.2M Pipeline Attribution Clarity
+### 34% Average Reply Rate from Warm Signal Detection
 
-**Customer problem:** A Series B SaaS client was burning $40K/month on paid acquisition with no visibility into which channels produced pipeline. **Deployed solution:** I designed and shipped a **multi-touch attribution warehouse** ingesting every touchpoint from Salesforce, HubSpot, Apollo, and Clearbit into a unified PostgreSQL schema. Four attribution models run in parallel — first-touch, last-touch, linear, and U-shaped.
+**Customer problem:** Clients came to us after burning out on cold outreach — static lists, 2% reply rates, and restricted LinkedIn accounts. **Deployed solution:** a warm signal engine that only contacts people already showing intent — no cold lists.
 
-```mermaid
-flowchart LR
-    A[Marketing: LinkedIn = 60%] --> D{Attribution Engine}
-    B[Sales: Email = 60%] --> D
-    D --> E[First-Touch: LinkedIn = 45%]
-    D --> F[Last-Touch: Email = 52%]
-    D --> G[U-Shaped: LinkedIn 35% + Email 38%]
-    G --> H[$1.2M attributed pipeline]
-```
+The platform pulls **profile viewers** and **post engagers** from clients' own LinkedIn accounts via Unipile every 2 hours, and layers in **hiring-intent** and ICP-matched profile search via Apify every 4 hours. Every signal lands in a Supabase lead inbox before any outreach happens.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/💰_$1.2M_Pipeline_Attributed-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/📊_4_Models_Parallel-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/⏱️_Real--Time_Sync-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/📈_34%25_Avg_Reply_Rate-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/📅_127_Meetings_in_a_Single_Week-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🎯_15--45%25_Reply_Range_Across_Clients-2ea44f?style=for-the-badge&labelColor=0D1117" />
 </p>
 
-U-shaped attribution revealed LinkedIn created awareness (35%) but email closed deals (38%). Budget reallocated from broad LinkedIn ads to targeted email nurture. CFO moved from asking "Is this working?" to "How do we scale what works?"
+Clients reply to outreach because it's never really cold — one prospect's literal reply: *"how did you know I was looking at this?"* The system found the signal and wrote the message.
 
 ---
 
-### 5.2 Hours/Week Reclaimed Per Sales Rep
+### LLM ICP Scoring Across 500K Records/Month
 
-**Customer problem:** An enterprise client team of 12 reps spent **6.4 hours/week** on post-call admin: CRM updates, follow-up emails, call notes. CRM adoption was 34%. **Deployed solution:** I built and deployed an **AI-native sales pipeline** integrating with Gong, Fathom, and Fireflies to auto-analyze every call.
+**Customer problem:** Every client has a different ICP, and manual qualification doesn't scale across ~50 concurrent campaigns. **Deployed solution:** an LLM scoring pipeline that runs every 30 minutes against every new lead.
 
-```mermaid
-flowchart TD
-    A[Gong Recording] --> B[Webhook Trigger]
-    B --> C[AI Analysis Pipeline]
-    C --> D[16-Bucket Objection Classifier]
-    C --> E[Sentiment Trajectory]
-    C --> F[Next-Step Extraction]
-    D --> G[Auto CRM Update]
-    E --> G
-    F --> G
-    C --> H[AI Follow-up Draft]
-    C --> I[Coaching Scorecard]
-    G --> J[Pipeline Kanban Updated]
-```
+Each lead is scored **0–100 against that specific client's ICP** — title, seniority, company size, funding, tech stack, recent activity. Score ≥ 60 routes to campaigns; below 60 is disqualified before it ever wastes a send. **Open profiles** (LinkedIn gold badge) get a +3 bonus and route to the InMail track instead of connection requests. Primary model via OpenCode with an automatic OpenRouter fallback, so a provider outage never stalls the pipeline.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/⏱️_5.2+hrs/week_Reclaimed_Per_Rep-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/📈_CRM_Adoption:_34%25_→_89%25-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/⚡_Follow--up:_45min_→_3min-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🗂️_500K_Records_/_Month-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/⏱️_30--Minute_Scoring_Loop-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🧮_60%2B_Enrichment_Signals_Per_Lead-2ea44f?style=for-the-badge&labelColor=0D1117" />
 </p>
 
-Post-call admin dropped from 6.4 hrs to 1.2 hrs per rep. CRM adoption jumped to 89% because records updated automatically — reps only reviewed and approved. Follow-up send time went from 45 minutes to 3 minutes. Rep coaching became data-driven: managers saw exactly which objection types each rep struggled with.
+Multi-tenant by design: scoring runs per-client ICP definitions from one shared pipeline, with per-campaign sender isolation so one client's backlog never starves another's queue.
 
 ---
 
-### 4x Meeting Book Rate from Signal Detection
+### Zero LinkedIn Bans Across All Client Accounts
 
-**Customer problem:** A client's outbound SDR team worked from static ZoomInfo lists with 30-45 day stale intent data. Meeting book rate: **2.1%**. **Deployed solution:** I built a **real-time signal detection system** monitoring LinkedIn public engagement against competitor watchlists.
+**Customer problem:** Every automation tool clients had tried before got their accounts restricted within a month. **Deployed solution:** a webhook-driven campaign state machine that behaves like a careful human, not a bot.
 
-```mermaid
-flowchart TD
-    A[LinkedIn Engagement] --> B[Signal Detector]
-    B --> C[Four-Layer ICP Score]
-    C --> D{Score > 80?}
-    D -->|Yes| E[🔥 Hot Lead]
-    D -->|No| F[❄️ Nurture]
-    E --> G[Apollo Enrichment]
-    G --> H[CRM Route]
-    G --> I[Slack Alert to SDR]
-    H --> J[Auto Sequence Trigger]
-```
+Connection requests go out at human-like pace with daily limits and warm-up scheduling. DMs are **hard-gated behind the `connection.accepted` webhook** — a value DM is only scheduled after LinkedIn confirms the connection, then sent 2 hours later. Follow-ups escalate to an **AI voice note** (ElevenLabs TTS delivered through Unipile) instead of another text wall. Health monitoring watches for rate-limit risk and shadow-ban signals before LinkedIn flags anything.
 
 <p align="left">
-  <img src="https://img.shields.io/badge/🚀_4x_Meeting_Book_Rate-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/⚡_30_days_→_15_minutes-2ea44f?style=for-the-badge&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/🏆_Competitive_Wins:+23%25-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🛡️_0_Bans_Across_All_Clients-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge🔗_Webhook--Gated_State_Machine-2ea44f?style=for-the-badge&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/🗣️_AI_Voice_Notes_in_Sequence-2ea44f?style=for-the-badge&labelColor=0D1117" />
 </p>
 
-Meeting book rate jumped from 2.1% to 8.7%. Lead response time went from 30-45 days to under 15 minutes. Daily dials dropped from 80 to 35, but meetings booked per week increased from 3.2 to 6.1. Competitive win rate improved 23% because reps reached prospects during active evaluation windows.
+Interested prospects book directly on the client's calendar via Calendly, with a Slack notification to the owner. Clients show up to meetings; the platform handles everything between intent and booking.
 
 ---
 
 ## 🏗️ Architecture
 
-### Multi-Agent Revenue Orchestration
-
-```mermaid
-flowchart TD
-    A[User Request] --> B[Revenue Orchestrator<br/>State Machine + Event Bus]
-    B --> C[🎯 Planner Agent<br/>Goal decomposition<br/>ICP scoring<br/>Priority queue]
-    B --> D[📊 Analyst Agent<br/>Attribution modeling<br/>Forecasting<br/>Churn risk]
-    B --> E[🚀 Activator Agent<br/>Lead routing<br/>Sequence triggers<br/>CRM sync]
-    C --> F[🧠 Reviewer Agent<br/>Human checkpoint]
-    D --> F
-    E --> F
-    F --> G[📈 Action Output<br/>CRM / Email / Slack / Dashboard]
-```
-
-### Customer Integration Architecture
+### CalendarFuel Platform — Production System
 
 ```mermaid
 flowchart TB
-    subgraph Sources["CRM Sources"]
-        SF[Salesforce<br/>Opportunities · Accounts · Tasks]
-        HS[HubSpot<br/>Contacts · Deals · Email Events]
-        AP[Apollo.io<br/>Enrichment · Sequences · Dialer]
-        CB[Clearbit<br/>Firmographic · Technographic]
+    subgraph Client["Client Experience"]
+        UI[Next.js 14 Dashboard]
+        INBOX[Unified Reply Inbox]
     end
 
-    subgraph Ingestion["Ingestion Layer"]
-        WH[Webhooks<br/>Real-time]
-        API[REST API<br/>Polling]
-        CDC[Change Data Capture<br/>Incremental]
+    subgraph Core["Core Platform — Netlify"]
+        API[Next.js API Routes]
+        DB[(Supabase Postgres<br/>leads · messages · campaigns · clients)]
+        CRON[Scheduled Functions<br/>message sender 5min · engagement sync 2h<br/>ICP scoring 30min · lead sourcing 4h]
     end
 
-    subgraph Warehouse["Unified Warehouse"]
-        PG[(PostgreSQL<br/>Normalized Schema)]
-        DM[Dimensional Models<br/>Star Schema]
+    subgraph External["External Services"]
+        UNI[Unipile<br/>LinkedIn automation]
+        APF[Apify<br/>hiring intent · profile search]
+        LLM[LLM scoring + message generation<br/>OpenCode → OpenRouter fallback]
+        EL[ElevenLabs<br/>AI voice notes]
     end
 
-    subgraph Services["Service Layer"]
-        FA[FastAPI<br/>GraphQL + REST]
-        AUTH[JWT Auth<br/>RBAC]
-        CACHE[Redis<br/>Session + Cache]
+    subgraph Platform["Auth · Billing · Alerts"]
+        CLK[Clerk]
+        STP[Stripe]
+        SLK[Slack]
     end
 
-    subgraph Consumers["Consumers"]
-        DASH[Next.js Dashboards]
-        REPORT[Scheduled Reports]
-        ETL[Reverse ETL<br/>CRM Enrich]
-        SLACK[Slack Alerts]
-    end
-
-    SF --> WH
-    HS --> API
-    AP --> API
-    CB --> CDC
-    WH --> PG
-    API --> PG
-    CDC --> PG
-    PG --> DM
-    PG --> FA
-    DM --> FA
-    FA --> AUTH
-    FA --> CACHE
-    FA --> DASH
-    FA --> REPORT
-    DM --> ETL
-    ETL --> SF
-    ETL --> HS
-    FA --> SLACK
+    UI --> API
+    INBOX --> API
+    API --> DB
+    API --> CLK
+    API --> STP
+    CRON --> DB
+    CRON --> UNI
+    CRON --> APF
+    CRON --> LLM
+    CRON --> EL
+    CRON --> SLK
+    UNI -->|webhooks: connection.accepted, replies| API
 ```
 
-### Lead-to-Revenue Data Pipeline
+### Campaign Sequence — Webhook-Gated State Machine
 
 ```mermaid
-flowchart LR
-    subgraph Sources
-        S1[Salesforce]
-        S2[HubSpot]
-        S3[Apollo]
-        S4[LinkedIn]
-        S5[Clearbit]
-    end
-    Sources --> E[Extract<br/>CDC]
-    E --> T[Transform<br/>Attribution + Scoring]
-    T --> L[Load<br/>PostgreSQL Warehouse]
-    L --> Q1[FastAPI<br/>Real-time Queries]
-    L --> Q2[dbt Models<br/>Metrics Layer]
-    L --> Q3[Reverse ETL<br/>Activation]
-    Q1 --> D1[Next.js Dashboards]
-    Q2 --> D2[Scheduled Reports]
-    Q3 --> D3[CRM Enrich<br/>Slack Alerts]
+flowchart TD
+    A[Warm signal detected<br/>profile view · post engager · hiring intent] --> B[LLM ICP scoring 0–100<br/>every 30 min]
+    B --> C{Score}
+    C -->|≥ 60| D[Qualified → campaign]
+    C -->|< 60| E[Disqualified]
+    C -->|Open profile +3| F[InMail track]
+    D --> G[Connection request<br/>human-paced, daily limits]
+    F --> G
+    G --> H{connection.accepted<br/>Unipile webhook}
+    H -->|accepted| I[Value DM<br/>scheduled +2h]
+    I --> J[Follow-up sequence]
+    J --> K[AI voice note<br/>ElevenLabs → Unipile]
+    K --> L{Reply}
+    L -->|interested| M[Autopilot booking<br/>Calendly + Slack alert]
+    L -->|objection| N[AI objection handling<br/>+ re-engagement]
+    N --> M
 ```
 
 ---
@@ -300,34 +240,29 @@ flowchart LR
 ## 🚀 Featured Projects
 
 <p align="center">
-  <a href="https://agentic-outreach-engine-cuppoyw73-madelyn-lagares-projects.vercel.app/">
-    <img src="https://img.shields.io/badge/🔗_Live_Demo-Agentic_Outreach_Engine-4F46E5?style=for-the-badge&logo=vercel&logoColor=white" />
+  <a href="https://calendarfuel.co">
+    <img src="https://img.shields.io/badge/🔗_Live_Product-CalendarFuel-4F46E5?style=for-the-badge" />
   </a>
 </p>
 
 <table>
   <tr>
     <td width="50%">
-      <h3>🏦 <a href="https://github.com/developers-universe-1/agentic-revenue-intelligence">Agentic Revenue Intelligence</a></h3>
-      <p>Revenue attribution engine, four-layer ICP scoring, lead-to-revenue analytics, CRM data sync.</p>
-      <p><strong>Python · FastAPI · PostgreSQL · Pandas · SQLAlchemy · Salesforce API</strong></p>
+      <h3>🔥 CalendarFuel — LinkedIn Outreach Platform</h3>
+      <p>Warm signal detection → LLM ICP scoring → personalized sequences → autopilot booking. Multi-tenant platform serving ~50 customers across 10 companies. <em>(Private repo — live at <a href="https://calendarfuel.co">calendarfuel.co</a>)</em></p>
+      <p><strong>Next.js 14 · Supabase · Unipile · Apify · OpenCode/OpenRouter · ElevenLabs · Clerk · Stripe · Netlify</strong></p>
     </td>
     <td width="50%">
-      <h3>🎯 <a href="https://github.com/developers-universe-1/agentic-demand-engine">Agentic Demand Engine</a></h3>
-      <p>LinkedIn signal detection → ICP scoring → enrichment → CRM routing.</p>
-      <p><strong>Next.js 15 · TypeScript · PostgreSQL · Prisma · GPT-4o</strong></p>
+      <h3>🧩 <a href="vertex-ai-rag-agent/README.md">Vertex AI RAG Agent</a></h3>
+      <p>Customer support agent with retrieval, source citations, eval harness, latency budget, and cost tracking. Deployable to Cloud Run.</p>
+      <p><strong>Python · FastAPI · Vertex AI (Gemini) · pgvector · Cloud SQL · Cloud Run</strong></p>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <h3>📢 <a href="https://github.com/developers-universe-1/agentic-outreach-engine">Agentic Outreach Engine</a> <a href="https://agentic-outreach-engine-cuppoyw73-madelyn-lagares-projects.vercel.app/">🌐</a></h3>
-      <p>Multi-channel sequences with reply classification, auto-tuning, A/B testing.</p>
-      <p><strong>Next.js 15 · TypeScript · Recharts · Node.js</strong></p>
-    </td>
-    <td width="50%">
-      <h3>💼 <a href="https://github.com/developers-universe-1/agentic-sales-engine">Agentic Sales Engine</a></h3>
-      <p>Call intelligence, auto-pipeline kanban, AI follow-ups, rep coaching.</p>
-      <p><strong>Next.js 15 · TypeScript · Prisma · GPT-4o · SSE streaming</strong></p>
+      <h3>🧭 <a href="fde-case-studies/README.md">FDE Case Studies & Post-Mortems</a></h3>
+      <p>Decomposition case studies, a production incident post-mortem, and AI evaluation docs — how I work with customers, in writing.</p>
+      <p><strong>Documentation · System Design · Incident Response</strong></p>
     </td>
   </tr>
 </table>
@@ -345,43 +280,9 @@ I deploy on GCP, AWS, and Vercel — infrastructure decisions are driven by cust
 
 ---
 
-## 🌱 Open Source Contributions
-
-Active contributor to developer infrastructure and AI tooling at scale. I ship bug fixes, documentation improvements, and quality-of-life updates across the projects I use in production every day.
-
-### Where I've Contributed
-
-| Project | Why It Matters | Focus Areas |
-|---------|---------------|-------------|
-| **[PostHog](https://github.com/PostHog/posthog)** | Product analytics + feature flags. The open-source alternative to Mixpanel/Amplitude. | Frontend fixes, AI prompt template corrections, test descriptions |
-| **[n8n](https://github.com/n8n-io/n8n)** | Workflow automation platform. Core infrastructure for RevOps data pipelines. | UI text fixes and documentation improvements across node definitions |
-| **[CrewAI](https://github.com/joaomdmoura/crewai)** | Multi-agent orchestration framework. Role-based agents for sales & ops teams. | Tooling fixes and error message corrections |
-| **[Cal.com](https://github.com/calcom/cal.com)** | Open-source scheduling infrastructure. TypeScript + Next.js + PostgreSQL. | i18n string corrections and TypeScript utility fixes |
-| **[hermes-agent](https://github.com/NousResearch/hermes-agent)** | Open-source AI agent framework. Python gateway, event hooks, error classification, MCP config. | Bug fixes in hook registry, error classifier, and CLI arg parsing |
-
-**Recent PRs:**
-- PostHog: [#60409](https://github.com/PostHog/posthog/pull/60409) · [#60411](https://github.com/PostHog/posthog/pull/60411)
-- n8n: [#31272](https://github.com/n8n-io/n8n/pull/31272) · [#31275](https://github.com/n8n-io/n8n/pull/31275)
-- CrewAI: [#5960](https://github.com/crewAIInc/crewAI/pull/5960)
-- Cal.com: [#29477](https://github.com/calcom/cal.diy/pull/29477) · [#29478](https://github.com/calcom/cal.diy/pull/29478)
-- hermes-agent: [#37486](https://github.com/NousResearch/hermes-agent/pull/37486) · [#37526](https://github.com/NousResearch/hermes-agent/pull/37526) · [#37531](https://github.com/NousResearch/hermes-agent/pull/37531)
-
-### Ecosystem I Follow
-
-| Project | Why It Matters |
-|---------|---------------|
-| **[SalesGPT](https://github.com/filip-michalsky/SalesGPT)** | Context-aware AI sales agent using LangChain. 1.8k+ stars. Built for autonomous outreach. |
-| **[Bricks](https://github.com/BraaMohammed/bricks)** | Open-source Clay.com alternative. AI agents + web scraping for lead enrichment. |
-| **[Twenty CRM](https://github.com/twentyhq/twenty)** | Open-source CRM for modern revenue teams. TypeScript + NestJS + PostgreSQL. |
-| **[LangChain](https://github.com/langchain-ai/langchain)** | The standard framework for LLM applications. Powers every AI system I build. |
-
-> **Want to collaborate?** I'm always looking for interesting open-source projects at the intersection of AI, customer-facing systems, and developer tools.
-
 ## 💼 Looking For
 
 - **Forward Deployed Engineer** — embedded with customers, shipping AI-native systems from discovery to production
-- **Customer Engineer** — owning the technical relationship across integration, deployment, and adoption
-- **Solutions Engineer** — AI-native systems: technical architecture, integrations, pre/post-sales engineering
 
 **Must-haves:** Remote-first, US-based, small high-velocity team  
 **Start:** 2-week notice
