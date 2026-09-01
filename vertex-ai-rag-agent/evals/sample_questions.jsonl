@@ -1,0 +1,8 @@
+{"question": "How do I rotate my API key without downtime?", "expected": "Create a second key in Settings > API, deploy it to your services, then revoke the old key."}
+{"question": "What is the rate limit for the Team plan?", "expected": "600 requests per minute per workspace."}
+{"question": "Do you support SAML SSO, and which identity providers?", "expected": "Yes, on the Enterprise plan: Okta, Entra ID, and Google Workspace."}
+{"question": "How long is audit log data retained?", "expected": "90 days on Team, 1 year on Enterprise."}
+{"question": "Can I export my data if I cancel my subscription?", "expected": "Yes, a full export is available for 30 days after cancellation."}
+{"question": "What regions can I pin my data to?", "expected": "US (us-east), EU (eu-west), and APAC (ap-southeast) on Enterprise."}
+{"question": "How do webhooks retry on failure?", "expected": "Exponential backoff over 24 hours, up to 8 attempts, then marked failed in the dashboard."}
+{"question": "Is there a sandbox environment for testing?", "expected": "Yes, every workspace includes a sandbox with synthetic data and no billing side effects."}

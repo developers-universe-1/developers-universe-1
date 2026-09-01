@@ -1,17 +1,17 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Madelyn+Reyes;Full-Stack+Engineer+%C2%B7+AI-Native+GTM;7+YOE+%C2%B7+Next.js+%C2%B7+TypeScript+%C2%B7+Node.js" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Madelyn+Reyes;Forward+Deployed+Engineer+%C2%B7+Customer-Facing+AI;7+YOE+%C2%B7+TypeScript+%C2%B7+React%2FNext.js+%C2%B7+Python" alt="Typing SVG" />
 </h1>
 
 <p align="center">
-  <b>7 YOE: Built production web apps as a Software Engineer. Now building agentic GTM infrastructure as a GTM Engineer.</b><br>
-  <sub>US Citizen · Remote · 2-Week Notice · Open to Full-Time & Contract</sub>
+  <b>I build and deploy AI-powered software directly with customers — from discovery to production.</b><br>
+  <sub>US Citizen · Washington DC-Baltimore Area · Remote · 2-Week Notice · Open to Full-Time & Contract</sub>
 </p>
 <p align="center">
+  <img src="https://img.shields.io/badge/Customer--Facing_Engineering-2ea44f?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/AI_Agents_/_LLM_Apps-2ea44f?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Integration_Architecture-2ea44f?style=flat-square&labelColor=0D1117" />
   <img src="https://img.shields.io/badge/B2B_SaaS-2ea44f?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Fintech-2ea44f?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Marketing_Tech-2ea44f?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Government_/_Defense-2ea44f?style=flat-square&labelColor=0D1117" />
-  <img src="https://img.shields.io/badge/Revenue_Ops-2ea44f?style=flat-square&labelColor=0D1117" />
+  <img src="https://img.shields.io/badge/Fintech_/_GovTech-2ea44f?style=flat-square&labelColor=0D1117" />
 </p>
 
 <p align="center">
@@ -24,23 +24,78 @@
 
 ## ✨ TL;DR
 
-I build **AI-native full-stack systems** that move revenue metrics. 7 years as a Software Engineer shipping **Next.js/React**, **TypeScript/Node.js APIs**, and **PostgreSQL** data layers — from fintech (SoFi, Ally Bank) to government/defense (General Dynamics IT). Transitioned to GTM Engineering. Currently building **agentic GTM infrastructure**: lead scoring, multi-channel outreach, sales call intelligence, and autonomous pipeline management.
+I'm a **Forward Deployed Engineer**: I embed with customers, map their workflows, and ship production software that solves them. 7 years as a Software Engineer shipping **TypeScript/React/Next.js**, **Python/FastAPI/Node.js**, and **PostgreSQL** — from fintech (SoFi, Ally) to government/defense (General Dynamics IT). Now at CalendarFuel, I design and deploy **AI-enabled applications, LLM agents, and integration architecture** for real customer environments.
+
+**Currently in production:** ~50 customers and campaigns across 10 companies · 20–30 active LinkedIn profiles operated for internal sales teams · workflows processing up to **500K prospects/records per month** · ~1 week faster time-to-close through automated research, personalized outreach, and sales intelligence.
 
 I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily — using **GPT-4o**, **GPT-4o-mini**, **Claude 3.5 Sonnet**, and **Claude 3 Opus** to accelerate architecture, not replace judgment.
+
+---
+
+## 💼 Experience
+
+### Forward Deployed Engineer — CalendarFuel
+*Jan 2025 – Present*
+
+- Build and deploy production AI-powered software for a growing B2B SaaS company, working directly across engineering, product, sales, customers, and internal stakeholders.
+- Translate customer workflows and business requirements into shipped features, prototypes, integrations, and production-ready solutions.
+- Design integration architecture and data flows across CRM, enrichment, sequencing, communication, and internal systems — REST APIs, webhooks, async workflows, structured reporting.
+- Build LLM-powered workflows, agents, dynamic personalization, and intelligent automation with TypeScript, React, Next.js, Python, and FastAPI.
+- Support ~50 customers and campaigns across 10 companies, including client teams of 5–10 running active campaigns.
+- Operate 20–30 active LinkedIn profiles for internal sales teams; support workflows processing up to 500,000 prospects/records per month.
+- Cut time-to-close by ~1 week via faster data flow, personalized outreach, automated follow-up, and clearer sales intelligence.
+- Own production troubleshooting, AI output evaluation, and customer feedback loops across the full SDLC.
+
+### Software Engineer — SoFi
+*Jan 2024 – Dec 2024 · Remote*
+
+- Built Python (FastAPI) backend services and async data pipelines powering marketing and sales operations — ingesting, transforming, and syncing customer data between HubSpot, Salesforce, Dotdigital, and internal warehouses.
+- Developed REST API connectors and webhook handlers keeping marketing automation and CRM in sync, so lead scoring, segmentation, and attribution data stayed accurate.
+- Implemented validation, deduplication, and enrichment logic for clean records flowing into sales and marketing tools.
+- Partnered with marketing ops and sales to debug sync issues, optimize API throughput, and build internal tooling for pipeline data health.
+- Designed backend endpoints and aggregation jobs feeding campaign, conversion, and funnel metrics into leadership dashboards.
+
+### Software Engineer — General Dynamics Information Technology
+*Jan 2022 – Dec 2023 · West Palm Beach, FL*
+
+- Developed secure full-stack web applications for federal government clients with Next.js, React, TypeScript, Node.js, and Python (FastAPI/Flask), meeting strict security compliance standards.
+- Implemented RESTful and GraphQL APIs integrated with AWS services and relational databases — 99.9% uptime for mission-critical systems.
+- Led code reviews and mentored junior developers; introduced automated testing with Jest and Cypress and CI/CD pipelines with GitHub Actions.
+- Migrated monolithic systems to microservices architecture using Docker and Kubernetes.
+
+### Software Developer Engineer in Test — Ally
+*Jan 2019 – Dec 2021*
+
+- Designed automated test suites for web applications using TypeScript, Cypress, and Playwright — E2E, integration, and regression coverage across front-end and back-end.
+- Integrated automated testing into CI/CD pipelines, catching defects earlier and improving release reliability.
+
+**Education:** Washington University of Science and Technology — Full-Stack Web Development Bootcamp (Cybersecurity, Software Engineering, Project Management)
+
+---
+
+## 🧭 FDE Portfolio
+
+- [Decomposition Case Studies](fde-case-studies/README.md) — breaking down ambiguous customer problems into shipped systems
+- [Production Incident Post-Mortem](post-mortems/ai-pipeline-rate-limit.md) — rate-limit failure in an AI pipeline, root cause to resolution
+- [Production AI Evaluation](docs/production-ai-evaluation.md) — AI evals, latency budgets, and safety in production
+- [Customer Reference Architecture](reference-architectures/ai-native-gtm-b2b-saas.md) — AI-native GTM architecture for B2B SaaS
+- [SQL & Data Modeling Deep Dive](sql-showcase/README.md) — query patterns and schema design from production systems
+- [GCP + Vertex AI RAG Agent](vertex-ai-rag-agent/README.md) — retrieval-augmented agent with evals, deployed on GCP
 
 ---
 
 ## 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat-square" />
-  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat-square" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat-square" />
+  <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/GraphQL-E10098?logo=graphql&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Anthropic-D97757?logo=anthropic&logoColor=white&style=flat-square" />
@@ -50,6 +105,9 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
   <img src="https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white&style=flat-square" />
+  <img src="https://img.shields.io/badge/Cypress-17202C?logo=cypress&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/Playwright-2EAD33?logo=playwright&logoColor=white&style=flat-square" />
   <img src="https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white&style=flat-square" />
 </p>
@@ -59,14 +117,14 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 ## 📚 Selected Work
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=850&lines=Systems+Built+For+Revenue+Teams;Production+Architecture+%C2%B7+Measurable+Impact" alt="Selected Work Header" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=2500&pause=800&color=FF6B6B&center=true&vCenter=true&width=850&lines=Customer+Problems+%E2%86%92+Deployed+Solutions;Production+Architecture+%C2%B7+Measurable+Impact" alt="Selected Work Header" />
 </p>
 
 ---
 
 ### $1.2M Pipeline Attribution Clarity
 
-A Series B SaaS startup was burning $40K/month on paid acquisition with no visibility into which channels produced pipeline. I built a **multi-touch attribution warehouse** that ingested every touchpoint from Salesforce, HubSpot, Apollo, and Clearbit into a unified PostgreSQL schema. Four attribution models run in parallel — first-touch, last-touch, linear, and U-shaped.
+**Customer problem:** A Series B SaaS client was burning $40K/month on paid acquisition with no visibility into which channels produced pipeline. **Deployed solution:** I designed and shipped a **multi-touch attribution warehouse** ingesting every touchpoint from Salesforce, HubSpot, Apollo, and Clearbit into a unified PostgreSQL schema. Four attribution models run in parallel — first-touch, last-touch, linear, and U-shaped.
 
 ```mermaid
 flowchart LR
@@ -90,7 +148,7 @@ U-shaped attribution revealed LinkedIn created awareness (35%) but email closed 
 
 ### 5.2 Hours/Week Reclaimed Per Sales Rep
 
-An enterprise team of 12 reps spent **6.4 hours/week** on post-call admin: CRM updates, follow-up emails, call notes. CRM adoption was 34%. I built an **AI-native sales pipeline** integrating with Gong, Fathom, and Fireflies to auto-analyze every call.
+**Customer problem:** An enterprise client team of 12 reps spent **6.4 hours/week** on post-call admin: CRM updates, follow-up emails, call notes. CRM adoption was 34%. **Deployed solution:** I built and deployed an **AI-native sales pipeline** integrating with Gong, Fathom, and Fireflies to auto-analyze every call.
 
 ```mermaid
 flowchart TD
@@ -119,7 +177,7 @@ Post-call admin dropped from 6.4 hrs to 1.2 hrs per rep. CRM adoption jumped to 
 
 ### 4x Meeting Book Rate from Signal Detection
 
-An outbound SDR team worked from static ZoomInfo lists with 30-45 day stale intent data. Meeting book rate: **2.1%**. I built a **real-time signal detection system** monitoring LinkedIn public engagement against competitor watchlists.
+**Customer problem:** A client's outbound SDR team worked from static ZoomInfo lists with 30-45 day stale intent data. Meeting book rate: **2.1%**. **Deployed solution:** I built a **real-time signal detection system** monitoring LinkedIn public engagement against competitor watchlists.
 
 ```mermaid
 flowchart TD
@@ -160,46 +218,7 @@ flowchart TD
     F --> G[📈 Action Output<br/>CRM / Email / Slack / Dashboard]
 ```
 
-### Lead-to-Revenue Data Pipeline
-
-```mermaid
-flowchart LR
-    subgraph Sources
-        S1[Salesforce]
-        S2[HubSpot]
-        S3[Apollo]
-        S4[LinkedIn]
-        S5[Clearbit]
-    end
-    Sources --> E[Extract<br/>CDC]
-    E --> T[Transform<br/>Attribution + Scoring]
-    T --> L[Load<br/>PostgreSQL Warehouse]
-    L --> Q1[FastAPI<br/>Real-time Queries]
-    L --> Q2[dbt Models<br/>Metrics Layer]
-    L --> Q3[Reverse ETL<br/>Activation]
-    Q1 --> D1[Next.js Dashboards]
-    Q2 --> D2[Scheduled Reports]
-    Q3 --> D3[CRM Enrich<br/>Slack Alerts]
-```
-
-### Four-Layer ICP Scoring
-
-```mermaid
-flowchart TD
-    A[Raw Lead] --> B[Firmographic<br/>0-25 pts<br/>Title · Industry · Size]
-    A --> C[Demographic<br/>0-25 pts<br/>Title · Seniority · Role Fit]
-    A --> D[Behavioral<br/>0-25 pts<br/>Recency · Frequency · Depth]
-    A --> E[Intent<br/>0-25 pts<br/>Job posts · Funding · Demo requests]
-    B --> F[Composite Score<br/>0-100]
-    C --> F
-    D --> F
-    E --> F
-    F -->|80+| G[🔥 Hot → SDR now]
-    F -->|60-79| H[🌡️ Warm → Queue]
-    F -->|<60| I[❄️ Nurture → Drip]
-```
-
-### CRM Architecture
+### Customer Integration Architecture
 
 ```mermaid
 flowchart TB
@@ -254,114 +273,26 @@ flowchart TB
     FA --> SLACK
 ```
 
-### Data Pipeline Architecture
+### Lead-to-Revenue Data Pipeline
 
 ```mermaid
 flowchart LR
-    subgraph Extract["Extract"]
-        E1[Salesforce API<br/>Bulk + Streaming]
-        E2[HubSpot API<br/>Engagement Events]
-        E3[Apollo API<br/>Contact Enrichment]
-        E4[LinkedIn Scraper<br/>Signal Detection]
-        E5[CSV Upload<br/>Manual Imports]
+    subgraph Sources
+        S1[Salesforce]
+        S2[HubSpot]
+        S3[Apollo]
+        S4[LinkedIn]
+        S5[Clearbit]
     end
-
-    subgraph Transform["Transform"]
-        T1[Normalization<br/>Schema Mapping]
-        T2[Deduping<br/>Fuzzy Matching]
-        T3[Attribution<br/>First · Last · Linear · U-Shape]
-        T4[ICP Scoring<br/>4-Layer Algorithm]
-        T5[Forecasting<br/>Trend + Seasonality]
-    end
-
-    subgraph Load["Load"]
-        L1[PostgreSQL<br/>Transactional]
-        L2[Materialized Views<br/>Pre-aggregated]
-        L3[Redis<br/>Hot Cache]
-    end
-
-    subgraph Orchestrate["Orchestrate"]
-        O1[Cron Scheduler<br/>Hourly]
-        O2[Event Triggers<br/>Webhook]
-        O3[Manual Run<br/>FastAPI Endpoint]
-        O4[Retry + Dead Letter<br/>Error Handling]
-    end
-
-    E1 --> T1
-    E2 --> T1
-    E3 --> T2
-    E4 --> T2
-    E5 --> T1
-    T1 --> T3
-    T2 --> T4
-    T3 --> L1
-    T4 --> L1
-    T5 --> L2
-    L1 --> L2
-    L2 --> L3
-    O1 --> E1
-    O2 --> E4
-    O3 --> T3
-    O4 --> T1
-```
-
-### AI Agent Architecture
-
-```mermaid
-flowchart TD
-    subgraph Input["Input Layer"]
-        I1[User Prompt<br/>Natural Language]
-        I2[CRM Event<br/>Webhook]
-        I3[Scheduled Job<br/>Cron]
-        I4[External Signal<br/>LinkedIn · Funding]
-    end
-
-    subgraph Orchestrator["Agent Orchestrator"]
-        R[Router<br/>Intent Classification]
-        S[State Machine<br/>Context Window]
-        M[Memory<br/>PostgreSQL + Redis]
-        Q[Queue<br/>Priority + Retry]
-    end
-
-    subgraph Agents["Specialized Agents"]
-        A1[🎯 Planner<br/>Goal Decomposition<br/>GPT-4o]
-        A2[🔍 Researcher<br/>Lead Enrichment<br/>GPT-4o + APIs]
-        A3[✍️ Writer<br/>Email · LinkedIn · Call Scripts<br/>Claude 3.5 Sonnet]
-        A4[📊 Analyst<br/>Attribution · Forecasting<br/>GPT-4o + Pandas]
-        A5[🚀 Activator<br/>CRM Update · Sequence Trigger<br/>Node.js]
-        A6[🧠 Reviewer<br/>Quality Gate · Human Check<br/>Claude 3 Opus]
-    end
-
-    subgraph Output["Output Layer"]
-        O1[CRM Record<br/>Salesforce · HubSpot]
-        O2[Email / LinkedIn<br/>Outreach]
-        O3[Slack Alert<br/>SDR Notification]
-        O4[Dashboard<br/>Next.js + Recharts]
-        O5[Human Review<br/>Approval Queue]
-    end
-
-    I1 --> R
-    I2 --> R
-    I3 --> R
-    I4 --> R
-    R --> S
-    S --> M
-    S --> Q
-    Q --> A1
-    Q --> A2
-    Q --> A3
-    Q --> A4
-    Q --> A5
-    A1 --> A6
-    A2 --> A6
-    A3 --> A6
-    A4 --> A6
-    A5 --> A6
-    A6 -->|Approved| O1
-    A6 -->|Approved| O2
-    A6 -->|Approved| O3
-    A6 -->|Approved| O4
-    A6 -->|Needs Review| O5
+    Sources --> E[Extract<br/>CDC]
+    E --> T[Transform<br/>Attribution + Scoring]
+    T --> L[Load<br/>PostgreSQL Warehouse]
+    L --> Q1[FastAPI<br/>Real-time Queries]
+    L --> Q2[dbt Models<br/>Metrics Layer]
+    L --> Q3[Reverse ETL<br/>Activation]
+    Q1 --> D1[Next.js Dashboards]
+    Q2 --> D2[Scheduled Reports]
+    Q3 --> D3[CRM Enrich<br/>Slack Alerts]
 ```
 
 ---
@@ -408,7 +339,9 @@ flowchart TD
 **Daily stack:** Cursor (IDE) · Claude Code & Codex (refactors) · GitHub Copilot (boilerplate)  
 **Models:** GPT-4o · GPT-4o-mini · Claude 3.5 Sonnet · Claude 3 Opus · OpenRouter
 
-**Workflow:** Natural language spec → AI-accelerated implementation → human-owned architecture, error handling, and production reliability.
+**Workflow:** Customer discovery → natural language spec → AI-accelerated implementation → human-owned architecture, error handling, and production reliability.
+
+I deploy on GCP, AWS, and Vercel — infrastructure decisions are driven by customer constraints, not preference.
 
 ---
 
@@ -442,16 +375,15 @@ Active contributor to developer infrastructure and AI tooling at scale. I ship b
 | **[Twenty CRM](https://github.com/twentyhq/twenty)** | Open-source CRM for modern revenue teams. TypeScript + NestJS + PostgreSQL. |
 | **[LangChain](https://github.com/langchain-ai/langchain)** | The standard framework for LLM applications. Powers every AI system I build. |
 
-> **Want to collaborate?** I'm always looking for interesting open-source projects at the intersection of AI, revenue systems, and developer tools.
+> **Want to collaborate?** I'm always looking for interesting open-source projects at the intersection of AI, customer-facing systems, and developer tools.
 
 ## 💼 Looking For
 
-- **GTM Engineer** — Revenue tech stack, AI agents, sales ops automation
-- **Software Engineer** — Full-stack, AI-adjacent, early-stage
-- **Founding Engineer** — 0→1 product ownership
+- **Forward Deployed Engineer** — embedded with customers, shipping AI-native systems from discovery to production
+- **Customer Engineer** — owning the technical relationship across integration, deployment, and adoption
+- **Solutions Engineer** — AI-native systems: technical architecture, integrations, pre/post-sales engineering
 
 **Must-haves:** Remote-first, US-based, small high-velocity team  
-**Comp:** $150k–$210k base, flexible on equity  
 **Start:** 2-week notice
 
 ---
@@ -472,5 +404,5 @@ Active contributor to developer infrastructure and AI tooling at scale. I ship b
 
 <p align="center">
   <b>📧 madelynreyes2026@gmail.com</b><br>
-  <b>🌐 United States (Remote) · US Citizen · No sponsorship needed</b>
+  <b>🌐 Washington DC-Baltimore Area (Remote) · US Citizen · No sponsorship needed</b>
 </p>
