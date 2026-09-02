@@ -7,6 +7,10 @@ from .config import settings
 
 _initialized = False
 
+# Bump on any change to the grounded-answer prompt below. Written into every
+# chat_traces row so audits can tie an answer to the prompt that produced it.
+PROMPT_VERSION = "support-grounded-v1"
+
 
 def init_vertex() -> None:
     """Initialize the Vertex AI SDK once per process."""

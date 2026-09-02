@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Madelyn+Reyes;Forward+Deployed+Engineer+%C2%B7+Customer-Facing+AI;7+YOE+%C2%B7+TypeScript+%C2%B7+React%2FNext.js+%C2%B7+Python" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=850&lines=Hi+%F0%9F%91%8B+I'm+Madelyn+Reyes;Forward+Deployed+Engineer+%C2%B7+Customer-Facing+AI;9%2B+YOE+%C2%B7+TypeScript+%C2%B7+React%2FNext.js+%C2%B7+Python" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -24,7 +24,7 @@
 
 ## ✨ TL;DR
 
-I'm a **Forward Deployed Engineer**: I embed with customers, map their workflows, and ship production software that solves them. 7 years shipping **TypeScript/React/Next.js**, **Python/FastAPI/Node.js**, and **PostgreSQL** — from fintech (SoFi) to government/defense (General Dynamics IT). Now at CalendarFuel, I build and run the **LinkedIn outreach platform** end-to-end — warm signal detection, LLM ICP scoring, personalized sequences, and autopilot booking — for real customer environments.
+I'm a **Forward Deployed Engineer**: I embed with customers, map their workflows, and ship production software that solves them. 9+ years shipping **TypeScript/React/Next.js**, **Python/FastAPI/Node.js**, and **PostgreSQL** — from fintech (SoFi) to government/defense (General Dynamics IT). Now at CalendarFuel, I build and run the **LinkedIn outreach platform** end-to-end — warm signal detection, LLM ICP scoring, personalized sequences, and autopilot booking — for real customer environments.
 
 **Currently in production:** ~50 customers and campaigns across 10 companies · workflows processing up to **500K prospects/records per month** · ~1 week faster time-to-close through automated research, personalized outreach, and sales intelligence.
 
@@ -35,7 +35,7 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 ## 💼 Experience
 
 ### Forward Deployed Engineer — CalendarFuel
-*Jan 2025 – Present*
+*Jan 2024 – Present · Remote*
 
 - Build and deploy production AI-powered software for a growing B2B SaaS company, working directly across engineering, product, sales, customers, and internal stakeholders.
 - Translate customer workflows and business requirements into shipped features, prototypes, integrations, and production-ready solutions.
@@ -46,15 +46,6 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 - Cut time-to-close by ~1 week via faster data flow, personalized outreach, automated follow-up, and clearer sales intelligence.
 - Own production troubleshooting, AI output evaluation, and customer feedback loops across the full SDLC.
 
-### Software Engineer — SoFi
-*Jan 2024 – Dec 2024 · Remote*
-
-- Built Python (FastAPI) backend services and async data pipelines powering marketing and sales operations — ingesting, transforming, and syncing customer data between HubSpot, Salesforce, Dotdigital, and internal warehouses.
-- Developed REST API connectors and webhook handlers keeping marketing automation and CRM in sync, so lead scoring, segmentation, and attribution data stayed accurate.
-- Implemented validation, deduplication, and enrichment logic for clean records flowing into sales and marketing tools.
-- Partnered with marketing ops and sales to debug sync issues, optimize API throughput, and build internal tooling for pipeline data health.
-- Designed backend endpoints and aggregation jobs feeding campaign, conversion, and funnel metrics into leadership dashboards.
-
 ### Software Engineer — General Dynamics Information Technology
 *Jan 2022 – Dec 2023 · West Palm Beach, FL*
 
@@ -63,8 +54,17 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 - Led code reviews and mentored junior developers; introduced automated testing with Jest and Cypress and CI/CD pipelines with GitHub Actions.
 - Migrated monolithic systems to microservices architecture using Docker and Kubernetes.
 
+### Software Engineer — SoFi
+*Jun 2019 – Dec 2021 · Remote*
+
+- Built Python (FastAPI) backend services and async data pipelines powering marketing and sales operations — ingesting, transforming, and syncing customer data between HubSpot, Salesforce, Dotdigital, and internal warehouses.
+- Developed REST API connectors and webhook handlers keeping marketing automation and CRM in sync, so lead scoring, segmentation, and attribution data stayed accurate.
+- Implemented validation, deduplication, and enrichment logic for clean records flowing into sales and marketing tools.
+- Partnered with marketing ops and sales to debug sync issues, optimize API throughput, and build internal tooling for pipeline data health.
+- Designed backend endpoints and aggregation jobs feeding campaign, conversion, and funnel metrics into leadership dashboards.
+
 ### Software Developer Engineer in Test — Ally
-*Jan 2019 – Dec 2021*
+*Jan 2017 – Jun 2019 · Remote*
 
 - Designed automated test suites for web applications using TypeScript, Cypress, and Playwright — E2E, integration, and regression coverage across front-end and back-end.
 - Integrated automated testing into CI/CD pipelines, catching defects earlier and improving release reliability.
@@ -75,12 +75,24 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 
 ## 🧭 FDE Portfolio
 
+Every engagement runs the same loop: **audit → eval → deploy → observe**. These docs are the artifacts, organized by stage.
+
+**Audit — map how the work actually happens before touching it.**
 - [Decomposition Case Studies](fde-case-studies/README.md) — breaking down ambiguous customer problems into shipped systems
-- [Production Incident Post-Mortem](post-mortems/ai-pipeline-rate-limit.md) — rate-limit failure in an AI pipeline, root cause to resolution
+- [FDE Audit: Operating Map](fde-case-studies/fde-audit-operating-map.md) — a week-one audit deliverable: documented vs. real process, exception inventory, ROI priority matrix
+
+**Eval — decide where intelligence belongs, then gate it.**
 - [Production AI Evaluation](docs/production-ai-evaluation.md) — AI evals, latency budgets, and safety in production
+- [Where Intelligence Belongs](docs/where-intelligence-belongs.md) — the deterministic vs. LLM vs. human-in-the-loop decision framework
+
+**Deploy — land on the customer's existing stack, with graduated autonomy.**
 - [Customer Reference Architecture](reference-architectures/ai-native-gtm-b2b-saas.md) — AI-native GTM architecture for B2B SaaS
-- [SQL & Data Modeling Deep Dive](sql-showcase/README.md) — query patterns and schema design from production systems
+- [Deployment & Adoption](docs/deployment-and-adoption.md) — no forced migration, shadow-mode rollout, de-risking the internal champion
 - [GCP + Vertex AI RAG Agent](vertex-ai-rag-agent/README.md) — retrieval-augmented agent with evals, deployed on GCP
+
+**Observe — audit trails, failure-mode reports, then the loop runs again.**
+- [Production Incident Post-Mortem](post-mortems/ai-pipeline-rate-limit.md) — rate-limit failure in an AI pipeline, root cause to resolution
+- [SQL & Data Modeling Deep Dive](sql-showcase/README.md) — query patterns and schema design from production systems
 
 ---
 
@@ -291,7 +303,7 @@ flowchart TD
 **Daily stack:** Cursor (IDE) · Claude Code & Codex (refactors) · GitHub Copilot (boilerplate)  
 **Models:** GPT-4o · GPT-4o-mini · Claude 3.5 Sonnet · Claude 3 Opus · OpenRouter
 
-**Workflow:** Customer discovery → natural language spec → AI-accelerated implementation → human-owned architecture, error handling, and production reliability.
+**Workflow:** Customer discovery → natural language spec → AI-accelerated implementation → human-owned architecture, error handling, and production reliability. Every engagement runs the same loop — **audit → eval → deploy → observe** — and the loop is the deliverable as much as the code.
 
 I deploy on GCP, AWS, and Vercel — infrastructure decisions are driven by customer constraints, not preference.
 

@@ -29,7 +29,8 @@ flowchart LR
 
 Request flow: the question is embedded, the top-k chunks are fetched from pgvector by
 cosine distance, a grounded prompt with numbered sources is built, Gemini answers with
-inline `[n]` citations, and the response includes per-stage latency and token usage.
+inline `[n]` citations, and the response includes per-stage latency, token usage, and
+a `trace_id` keyed to the audit trail (see Audit Trail).
 
 ## Setup
 
@@ -111,6 +112,27 @@ Runs each question through the full pipeline and scores two things per answer:
 faithfulness (Gemini-as-judge: is every claim supported by the retrieved chunks?) and
 citation correctness (do all `[n]` markers point at actually-retrieved sources?).
 Prints a pass rate. See `app/evals.py`.
+
+## Audit Trail
+
+Every `/chat` request writes one row to the `chat_traces` table (created at service
+startup, `app/audit.py`). Each row captures what a reviewer needs to reconstruct a
+decision: `trace_id` (also returned in the API response), status (`ok` /
+`no_context`), SHA-256 hashes of the question and answer, model versions
+(`gemini_model`, `embedding_model`), `prompt_version`, the retrieved sources with
+scores, per-stage latency, token usage, and a deterministic `citations_ok` check
+(every `[n]` maps to a retrieved chunk).
+
+Questions and answers are stored as hashes, not text — the trace proves the pipeline
+behaved without becoming a second copy of customer conversations. Trace writes are
+best-effort: a tracing failure is logged, never surfaced as a request error.
+
+```sql
+-- "Show me every answer with a bad citation in the last 24h"
+SELECT trace_id, created_at, sources, latency_ms
+FROM chat_traces
+WHERE citations_ok = false AND created_at > now() - interval '24 hours';
+```
 
 ## Design Decisions
 

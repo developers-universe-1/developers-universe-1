@@ -70,7 +70,7 @@ Three commitments, all enforced in code rather than policy docs:
 
 1. **PII redaction before LLM calls.** Prospect and customer records pass through a redaction layer (names of minors, personal phone numbers, anything flagged sensitive in the CRM) before hitting any external model API. Redaction is logged, so "did we send this to the model?" is answerable.
 2. **Human review gates.** No external-facing artifact is auto-sent without the confidence thresholds above. Automation earns autonomy by being checkable first — this is the same reason Case 2's CRM automation was review-and-approve in v1.
-3. **Audit logging.** Every LLM call logs: input hash, model version, prompt version, output, confidence score, and the human decision (approved/edited/rejected). When a customer's CISO asks "who decided this email went out," the answer is a query, not an investigation.
+3. **Audit logging.** Every LLM call logs: input hash, model version, prompt version, output, confidence score, and the human decision (approved/edited/rejected). When a customer's CISO asks "who decided this email went out," the answer is a query, not an investigation. A working, minimal version of this pattern ships in code in the [Vertex AI RAG agent](../vertex-ai-rag-agent/README.md#audit-trail) (`app/audit.py` — one `chat_traces` row per request: input/output hashes, model and prompt versions, retrieved sources, latency, tokens, citation verdict).
 
 ---
 
