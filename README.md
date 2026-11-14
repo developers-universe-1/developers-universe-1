@@ -69,7 +69,7 @@ I ship with **Cursor**, **Claude Code & Codex**, and **GitHub Copilot** daily �
 - Designed automated test suites for web applications using TypeScript, Cypress, and Playwright — E2E, integration, and regression coverage across front-end and back-end.
 - Integrated automated testing into CI/CD pipelines, catching defects earlier and improving release reliability.
 
-**Education:** Washington University of Science and Technology — Full-Stack Web Development Bootcamp (Cybersecurity, Software Engineering, Project Management)
+**Education:** University of the People — Bachelor of Science in Computer Science  
 
 ---
 
